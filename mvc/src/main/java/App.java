@@ -4,6 +4,7 @@ import util.JDBCUtilities;
 //import java.sql.DriverManager;// gestionar conexiones
 import java.sql.Connection; //establecer conexiones
 import java.sql.SQLException; //manejador de exepciones
+import view.MenuCombo;
 
 //importamos elemento de la vista
 import view.VistaRequerimientosReto4;
@@ -36,17 +37,20 @@ public class App
         //    System.err.println("no se pudo conectar a la base de datos conexion errada "+ e.getMessage());
         //}
 
-             //Requerimiento 3 - Reto3
-            VistaRequerimientosReto4.requerimiento3();
-            System.out.println();
-
-            //Requerimiento 4 - Reto3
-            VistaRequerimientosReto4.requerimiento4();
-            System.out.println();
-
-            //Requerimiento 5 - Reto3
-            VistaRequerimientosReto4.requerimiento5();
-            System.out.println();
+//             //Requerimiento 3 - Reto3
+//            VistaRequerimientosReto4.requerimiento3();
+//            System.out.println();
+//
+//            //Requerimiento 4 - Reto3
+//            VistaRequerimientosReto4.requerimiento4();
+//            System.out.println();
+//
+//            //Requerimiento 5 - Reto3
+//            VistaRequerimientosReto4.requerimiento5();
+//            System.out.println();
+        MenuCombo ventanaMenu = new MenuCombo();
+        
+        ventanaMenu.setVisible(true);
     }
 }
 
