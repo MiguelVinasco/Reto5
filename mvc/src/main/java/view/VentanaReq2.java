@@ -52,7 +52,7 @@ public class VentanaReq2 extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tableReq2 = new javax.swing.JTable();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         jLabel1.setText("Reporte 2");
